@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/image/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Simulador de Financiamento</title>
+  </head>
+  
+  <body>
+    <div id="containerGeral">
+      <div id="containerSimulador">
+        <h2>Simulador de Financiamento (SAC)</h2>
+  
+        <form>
+          <div>
+            <input id="textoValor" type="number" placeholder="Valor total                   Ex.: 10000" required>
+            <span id="avisoValor"></span>
+
+            <input id="textoEntrada" type="number" placeholder="Valor da entrada       Ex.: 2000" required>
+            <span id="avisoEntrada"></span>
+
+            <input id="textoTaxaJuros" type="number" placeholder="Taxa de juros (%)                 Ex.: 7" required>
+            <span id="avisoTaxaJuros"></span>
+
+            <input id="textoPrazo" type="number" placeholder="Prazo (em meses)            Ex.: 24" required>
+            <span id="avisoPrazo"></span>
+          </div>
+
+          <div>
+            <input type="checkbox" id="comCarencia">
+            <label for="comCarencia">Deseja com carência?</label>
+          </div>
+          
+          <div>
+            <select id="listaSuspensa">
+              <option value="1">1 mes</option>
+              <option value="2">2 meses</option>
+              <option value="3">3 meses</option>
+              <option value="4">4 meses</option>
+              <option value="5">5 meses</option>
+              <option value="6">6 meses</option>
+              <option value="7">7 meses</option>
+              <option value="8">8 meses</option>
+              <option value="9">9 meses</option>
+              <option value="10">10 meses</option>
+              <option value="11">11 meses</option>
+              <option value="12">12 meses</option>
+            </select>
+          </div>          
+
+          <div>
+            <button type="submit" id="botaoCalcular">Calcular</button>
+            <button type="reset" id="botaoResetar">Resetar</button>
+          </div>
+
+          <div id="containerDica">
+            <h3>Quer uma dica? 😄</h3>
+            <p id="dica">Caso estiver pelo celular ative o modo para computador para melhor leitura da tabela de valores.</p>
+          </div>
+        </form>
+      </div>
+     
+      <div id="containerImagem">
+        <table>
+          <thead id="cabecalhoTabela">
+            <tr>
+              <th>Num.</th>
+              <th>Valor da Parcela</th>
+              <th>Amortização</th>
+              <th>Juros</th>
+              <th>Saldo devedor</th>
+            </tr>
+          </thead>
+
+          <tbody id="corpoTabela"></tbody>
+        </table>
+
+        <img src="./assets/image/ilustracao.svg" alt="Ilustração" id="ilustracaoImg">
+      </div>
+    </div>
+
+    <script type="module" src="./assets/js/script.min.js"></script>
+  </body>
+</html>

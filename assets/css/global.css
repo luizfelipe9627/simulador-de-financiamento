@@ -1,0 +1,119 @@
+body {
+  font-family: 'DynaPuff', cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #81C5FE;
+  user-select: none;
+}
+
+select {
+  display: none;
+  font-family: 'DynaPuff', cursive;
+  width: 93%;
+  margin: 0.3125rem auto;
+  outline: none;
+}
+
+h2 {
+  margin: 1.25rem 0 0.3125rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 0.375rem;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  outline: none;
+  border-radius: 0.3125rem;
+  background-color: #2781E1;
+  border: none;
+  font-family: 'DynaPuff', cursive;
+}
+
+button {
+  border: none;
+  border-radius: 0.125rem;
+  font-weight: bold;
+  padding: 0.3125rem;
+  margin: 0.375rem;
+  background-color: #025DC6;
+  color: #FFF;
+  border-radius: 0.3125rem;
+  font-family: 'DynaPuff', cursive;
+  font-weight: 100;
+}
+
+button:hover {
+  transition: 1s all ease;
+  color: #000;
+  animation: efeito-rotatorio 0.4s
+}
+
+::placeholder {
+  color: #f5f5f5;
+  font-size: 0.7188rem;
+}
+
+table {
+  display: none;
+  flex-direction: column;
+  padding: 1.875rem;
+  text-align: center;
+}
+
+th {
+  padding: 0.3125rem;
+  border: solid 0.0625rem #000;
+  background-color: #025DC6;
+}
+
+td {
+ border: 0.0625rem solid #000;
+}
+
+tr:nth-child(even) {
+  background-color: #2781E1;
+}
+
+tr:hover {
+  background-color: #DDDDDD;
+  transition: 0.5s all ease;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    height: 93.5vh;
+  }
+
+  h2 {
+    margin: 1.875rem 0.625rem 0.625rem 0.625rem;
+  }
+
+  th {
+    padding: 0rem 0.5rem;
+  }
+}
