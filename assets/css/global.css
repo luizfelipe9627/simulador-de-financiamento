@@ -76,6 +76,8 @@ th {
   padding: 0.3125rem;
   border: solid 0.0625rem #000;
   background-color: #025DC6;
+  color: #FFF;
+  font-weight: 100;
 }
 
 td {
