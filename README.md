@@ -7,7 +7,7 @@
 O SAC consiste no plano de amortização de uma dívida em prestações periódicas, sucessivas e decrescentes, em progressão aritmética, dentro do conceito de termos vencidos, em que o valor de cada prestação é composto por uma parcela de juros e outra parcela de capital (ou amortização).
 
 ## 📑 Observação
-Esse projeto foi criado junto com a Tech Academy da StartSe para aprimorar os conhecimentos em POO com JavaScript. O código teve modificações e design feitos por mim para deixar ao meu gosto.
+Esse projeto foi criado com a Tech Academy da StartSe para aprimorar os conhecimentos em POO com JavaScript. O código teve modificações e design feitos por mim para deixar ao meu gosto.
 
 ### <a href="https://luizfelipe9627-simulador-de-financiamento.netlify.app">Acesse o site</a>
 
