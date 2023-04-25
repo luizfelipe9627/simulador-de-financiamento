@@ -1,7 +1,7 @@
 # Simulador de Financiamento - SAC
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/simulador-de-financiamento/blob/master/assets/image/apresentacao.gif" alt="Apresentação do Simulador de Financiamento">
+<img src="https://github.com/luizfelipe9627/simulador-de-financiamento/blob/main/assets/image/apresentacao.gif" alt="Apresentação do Simulador de Financiamento">
 
 ## 📄 Descrição
 O SAC consiste no plano de amortização de uma dívida em prestações periódicas, sucessivas e decrescentes, em progressão aritmética, dentro do conceito de termos vencidos, em que o valor de cada prestação é composto por uma parcela de juros e outra parcela de capital (ou amortização).
