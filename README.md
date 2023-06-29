@@ -9,7 +9,7 @@ O SAC consiste no plano de amortização de uma dívida em prestações periódi
 ## 📑 Observação
 Esse projeto foi criado com a Tech Academy da StartSe para aprimorar os conhecimentos em POO com JavaScript. O código teve modificações e design feitos por mim para deixar ao meu gosto.
 
-### <a href="https://luizfelipe9627-simulador-de-financiamento.netlify.app">Acesse o site</a>
+### <a href="https://luizfelipe9627-simulador-sac.netlify.app">Acesse o site</a>
 
 ## 💻 Tecnologias utilizadas
 
